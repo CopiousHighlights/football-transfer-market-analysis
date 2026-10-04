@@ -1,0 +1,59 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "kpi0",
+  "position": {
+    "x": 24,
+    "y": 20,
+    "z": 9,
+    "width": 294,
+    "height": 110,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Transfers"
+                    }
+                  },
+                  "Property": "Transfer records"
+                }
+              },
+              "queryRef": "Transfers.Transfer records",
+              "nativeQueryRef": "Transfer records"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Transfer records'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

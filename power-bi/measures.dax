@@ -1,0 +1,23 @@
+Transfers[Transfer records] = COUNTROWS(Transfers)
+
+Transfers[Reported permanent fees GBP] = CALCULATE(SUM(Transfers[quoted_fee_gbp]), Transfers[is_permanent_fee] = 1)
+
+Transfers[Reported fee coverage] = DIVIDE(SUM(Transfers[has_reported_fee]), [Transfer records])
+
+Transfers[Unknown fee records] = CALCULATE(COUNTROWS(Transfers), ISBLANK(Transfers[quoted_fee_gbp]))
+
+Transfers[Permanent fee deals] = SUM(Transfers[is_permanent_fee])
+
+HistoricalSample[Sample fees EUR] = SUM(HistoricalSample[transfer_fee])
+
+HistoricalSample[Sample median fee EUR] = MEDIAN(HistoricalSample[transfer_fee])
+
+HistoricalSample[Sample records] = COUNTROWS(HistoricalSample)
+
+ValuationSample[Valuation records] = COUNTROWS(ValuationSample)
+
+ValuationSample[Listed value EUR] = SUM(ValuationSample[tm_value])
+
+ValuationSample[Model estimate EUR] = SUM(ValuationSample[fair_value])
+
+ValuationSample[Model gap EUR] = [Model estimate EUR] - [Listed value EUR]

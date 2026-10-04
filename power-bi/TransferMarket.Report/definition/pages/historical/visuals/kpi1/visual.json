@@ -1,0 +1,59 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "kpi1",
+  "position": {
+    "x": 434,
+    "y": 20,
+    "z": 6,
+    "width": 390,
+    "height": 110,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "HistoricalSample"
+                    }
+                  },
+                  "Property": "Sample fees EUR"
+                }
+              },
+              "queryRef": "HistoricalSample.Sample fees EUR",
+              "nativeQueryRef": "Sample fees EUR"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Sample fees EUR'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

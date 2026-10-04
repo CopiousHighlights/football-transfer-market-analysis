@@ -1,0 +1,201 @@
+player_name,from_club_name,to_club_name,transfer_date,transfer_fee,mv_at_transfer,fee_to_mv,position,age_at_transfer
+Neymar,Barcelona,PSG,2017-08-03,222000000,100000000,2.22,Midfield,25
+Kylian Mbappé,Monaco,PSG,2018-07-01,180000000,120000000,1.5,Attack,20
+Ousmane Dembélé,Dortmund,Barcelona,2017-08-25,148000000,33000000,4.484848484848484,Attack,20
+Alexander Isak,Newcastle,Liverpool,2025-09-01,145000000,120000000,1.208333333333333,Attack,26
+Enzo Fernández,Chelsea,Man City,2026-09-01,145000000,90000000,1.611111111111111,Midfield,25
+Morgan Rogers,Aston Villa,Chelsea,2026-08-20,136000000,90000000,1.511111111111111,Midfield,24
+Philippe Coutinho,Liverpool,Barcelona,2018-01-08,135000000,90000000,1.5,Midfield,26
+Elliot Anderson,Nottm Forest,Man City,2026-07-15,135000000,75000000,1.8,Midfield,24
+João Félix,Benfica,Atlético,2019-07-03,127200000,70000000,1.817142857142857,Attack,20
+Jude Bellingham,Dortmund,Real Madrid,2023-07-01,127000000,120000000,1.058333333333333,Midfield,20
+Florian Wirtz,Leverkusen,Liverpool,2025-07-01,125000000,140000000,0.8928571428571429,Midfield,22
+Bradley Barcola,PSG,Liverpool,2026-08-31,125000000,70000000,1.785714285714286,Attack,24
+Yan Diomande,RB Leipzig,Real Madrid,2026-08-10,124000000,90000000,1.377777777777778,Attack,20
+Enzo Fernández,Benfica,Chelsea,2023-01-31,121000000,55000000,2.2,Midfield,22
+Antoine Griezmann,Atlético,Barcelona,2019-07-14,120000000,130000000,0.9230769230769231,Attack,28
+Jack Grealish,Aston Villa,Man City,2021-08-05,117500000,65000000,1.807692307692308,Attack,26
+Cristiano Ronaldo,Real Madrid,Juventus,2018-07-10,117000000,100000000,1.17,Attack,33
+Declan Rice,West Ham,Arsenal,2023-07-15,116600000,90000000,1.295555555555556,Midfield,24
+Moisés Caicedo,Brighton,Chelsea,2023-08-14,116000000,75000000,1.546666666666667,Midfield,22
+Romelu Lukaku,Inter,Chelsea,2021-08-12,113000000,100000000,1.13,Attack,28
+Sandro Tonali,Newcastle,Tottenham,2026-08-01,107000000,80000000,1.3375,Midfield,26
+Paul Pogba,Juventus,Man Utd,2016-08-09,105000000,70000000,1.5,Midfield,23
+Kai Havertz,Leverkusen,Chelsea,2020-09-04,100000000,81000000,1.234567901234568,Attack,21
+Ayyoub Bouaddi,Lille,Man City,2026-07-20,100000000,50000000,2,Midfield,19
+Mateus Fernandes,West Ham,Tottenham,2026-07-02,99000000,50000000,1.98,Midfield,22
+Hugo Ekitiké,Frankfurt,Liverpool,2025-07-23,95000000,75000000,1.266666666666667,Attack,23
+Harry Kane,Tottenham,Bayern Munich,2023-08-12,95000000,90000000,1.055555555555556,Attack,30
+Antony,Ajax,Man Utd,2022-08-30,95000000,35000000,2.714285714285714,Attack,22
+Randal Kolo Muani,Frankfurt,PSG,2023-09-01,95000000,80000000,1.1875,Attack,25
+Cristiano Ronaldo,Man Utd,Real Madrid,2009-07-06,94000000,60000000,1.566666666666667,Attack,24
+Neymar,PSG,Al-Hilal,2023-08-15,90000000,60000000,1.5,Midfield,31
+Josko Gvardiol,Leipzig,Man City,2023-08-05,90000000,75000000,1.2,Defender,21
+Neymar,Santos,Barcelona,2013-07-01,88000000,50000000,1.76,Midfield,21
+Harry Maguire,Leicester,Man Utd,2019-08-05,87000000,50000000,1.74,Defender,26
+Bruno Guimarães,Newcastle,Arsenal,2026-07-10,87000000,70000000,1.242857142857143,Midfield,29
+Frenkie de Jong,Ajax,Barcelona,2019-07-01,86000000,85000000,1.011764705882353,Midfield,22
+Matthijs de Ligt,Ajax,Juventus,2019-07-18,85500000,75000000,1.14,Defender,20
+Dušan Vlahović,Fiorentina,Juventus,2022-01-28,85400000,70000000,1.22,Attack,22
+Jadon Sancho,Dortmund,Man Utd,2021-07-23,85000000,100000000,0.85,Attack,21
+Darwin Núñez,Benfica,Liverpool,2022-07-01,85000000,55000000,1.545454545454545,Attack,23
+Romelu Lukaku,Everton,Man Utd,2017-07-10,84700000,50000000,1.694,Attack,24
+Virgil van Dijk,Southampton,Liverpool,2018-01-01,84650000,30000000,2.821666666666667,Defender,27
+Luis Suárez,Liverpool,Barcelona,2014-07-11,81720000,52000000,1.571538461538462,Attack,27
+Arthur Melo,Barcelona,Juventus,2020-09-01,80600000,56000000,1.439285714285714,Midfield,24
+Wesley Fofana,Leicester,Chelsea,2022-08-31,80400000,40000000,2.01,Defender,22
+Lucas Hernández,Atlético,Bayern Munich,2019-07-01,80000000,70000000,1.142857142857143,Defender,23
+Nicolas Pépé,Lille,Arsenal,2019-08-01,80000000,65000000,1.230769230769231,Attack,24
+Aurélien Tchouaméni,Monaco,Real Madrid,2022-07-01,80000000,60000000,1.333333333333333,Midfield,22
+Anthony Gordon,Newcastle,Barcelona,2026-07-01,80000000,65000000,1.230769230769231,Attack,25
+Kepa Arrizabalaga,Athletic Club,Chelsea,2018-08-08,80000000,20000000,4,Goalkeeper,24
+Khvicha Kvaratskhelia,Napoli,PSG,2025-01-17,80000000,85000000,0.9411764705882353,Attack,24
+Rasmus Højlund,Atalanta,Man Utd,2023-08-05,79800000,45000000,1.773333333333333,Attack,20
+Victor Osimhen,Lille,Napoli,2020-09-01,78900000,40000000,1.9725,Attack,22
+Alexander Isak,Real Sociedad,Newcastle,2022-08-26,77500000,30000000,2.583333333333333,Attack,23
+Jhon Durán,Aston Villa,Al-Nassr,2025-01-31,77000000,40000000,1.925,Attack,22
+Rodri,Man City,Barcelona,2026-08-18,76500000,50000000,1.53,Midfield,30
+Benjamin Sesko,Leipzig,Man Utd,2025-08-09,76500000,70000000,1.092857142857143,Attack,22
+Kevin De Bruyne,Wolfsburg,Man City,2015-08-30,76000000,45000000,1.688888888888889,Midfield,24
+Nick Woltemade,Stuttgart,Newcastle,2025-08-30,75000000,30000000,2.5,Attack,23
+Omar Marmoush,Frankfurt,Man City,2025-01-23,75000000,60000000,1.25,Attack,26
+Victor Osimhen,Napoli,Galatasaray,2025-07-31,75000000,70000000,1.071428571428571,Attack,27
+Bryan Mbeumo,Brentford,Man Utd,2025-07-21,75000000,55000000,1.363636363636364,Attack,26
+Julián Alvarez,Man City,Atlético,2024-08-12,75000000,90000000,0.8333333333333334,Attack,24
+Ángel Di María,Real Madrid,Man Utd,2014-08-26,75000000,50000000,1.5,Attack,26
+James Rodríguez,Monaco,Real Madrid,2014-07-22,75000000,60000000,1.25,Midfield,23
+Kai Havertz,Chelsea,Arsenal,2023-07-01,75000000,55000000,1.363636363636364,Attack,24
+Iliman Ndiaye,Everton,Man City,2026-09-01,75000000,55000000,1.363636363636364,Attack,26
+Matheus Cunha,Wolves,Man Utd,2025-07-01,74200000,60000000,1.236666666666667,Attack,26
+Romelu Lukaku,Man Utd,Inter,2019-08-08,74000000,75000000,0.9866666666666667,Attack,26
+Alisson,Roma,Liverpool,2018-07-19,72500000,60000000,1.208333333333333,Goalkeeper,26
+Antoine Semenyo,Bournemouth,Man City,2026-01-09,72000000,65000000,1.107692307692308,Attack,26
+Thomas Lemar,Monaco,Atlético,2018-07-01,72000000,65000000,1.107692307692308,Midfield,23
+Rúben Dias,Benfica,Man City,2020-09-29,71600000,35000000,2.045714285714286,Defender,23
+Casemiro,Real Madrid,Man Utd,2022-08-22,70650000,40000000,1.76625,Midfield,30
+Rodri,Atlético,Man City,2019-07-04,70000000,80000000,0.875,Midfield,23
+Luis Díaz,Liverpool,Bayern Munich,2025-07-30,70000000,70000000,1,Attack,28
+Martín Zubimendi,Real Sociedad,Arsenal,2025-07-06,70000000,60000000,1.166666666666667,Midfield,26
+Mykhaylo Mudryk,Shakhtar D.,Chelsea,2023-01-15,70000000,40000000,1.75,Attack,22
+Dominik Szoboszlai,Leipzig,Liverpool,2023-07-02,70000000,50000000,1.4,Midfield,23
+Eberechi Eze,Crystal Palace,Arsenal,2025-08-23,69300000,55000000,1.26,Midfield,27
+Achraf Hakimi,Inter,PSG,2021-07-06,68000000,60000000,1.133333333333333,Defender,23
+Riyad Mahrez,Leicester,Man City,2018-07-10,67800000,50000000,1.356,Attack,27
+Mason Mount,Chelsea,Man Utd,2023-07-05,67700000,60000000,1.128333333333333,Midfield,24
+Matthijs de Ligt,Juventus,Bayern Munich,2022-07-19,67000000,70000000,0.9571428571428572,Defender,23
+Viktor Gyökeres,Sporting,Arsenal,2025-07-26,66900000,75000000,0.892,Attack,27
+Álvaro Morata,Real Madrid,Chelsea,2017-07-21,66000000,40000000,1.65,Attack,25
+João Neves,Benfica,PSG,2024-08-05,65920000,55000000,1.198545454545455,Midfield,20
+Marc Cucurella,Brighton,Chelsea,2022-08-05,65300000,28000000,2.332142857142857,Defender,24
+Gonçalo Ramos,Benfica,PSG,2024-01-01,65000000,50000000,1.3,Attack,23
+Xavi Simons,Leipzig,Tottenham,2025-08-29,65000000,70000000,0.9285714285714286,Midfield,22
+Aymeric Laporte,Athletic Club,Man City,2018-01-30,65000000,25000000,2.6,Defender,24
+Bruno Fernandes,Sporting,Man Utd,2020-01-29,65000000,60000000,1.083333333333333,Midfield,26
+João Cancelo,Juventus,Man City,2019-08-07,65000000,55000000,1.181818181818182,Defender,25
+Edinson Cavani,Napoli,PSG,2013-07-16,64500000,55000000,1.172727272727273,Attack,26
+Dominic Solanke,Bournemouth,Tottenham,2024-08-10,64300000,40000000,1.6075,Attack,27
+Christian Pulisic,Dortmund,Chelsea,2019-01-02,64000000,50000000,1.28,Attack,21
+Mohammed Kudus,West Ham,Tottenham,2025-07-10,63800000,45000000,1.417777777777778,Attack,25
+Pierre-Emerick Aubameyang,Dortmund,Arsenal,2018-01-31,63750000,65000000,0.9807692307692307,Attack,29
+João Pedro,Brighton,Chelsea,2025-07-02,63700000,50000000,1.274,Attack,24
+Raheem Sterling,Liverpool,Man City,2015-07-14,63700000,40000000,1.5925,Attack,21
+Jérémy Jacquet,Stade Rennais,Liverpool,2026-07-01,63600000,55000000,1.156363636363636,Defender,21
+Ilya Zabarnyi,Bournemouth,PSG,2025-08-12,63000000,42000000,1.5,Defender,23
+Luka Jović,Frankfurt,Real Madrid,2019-07-02,63000000,60000000,1.05,Attack,22
+Ángel Di María,Man Utd,PSG,2015-08-06,63000000,50000000,1.26,Attack,27
+Dean Huijsen,Bournemouth,Real Madrid,2025-06-01,62500000,60000000,1.041666666666667,Defender,20
+Roméo Lavia,Southampton,Chelsea,2023-08-18,62100000,32000000,1.940625,Midfield,19
+Matheus Nunes,Wolves,Man City,2023-09-01,62000000,45000000,1.377777777777778,Defender,25
+Leny Yoro,Lille,Man Utd,2024-07-18,62000000,50000000,1.24,Defender,19
+Tanguy Ndombélé,Lyon,Tottenham,2019-07-02,62000000,65000000,0.9538461538461539,Midfield,23
+Mateo Retegui,Atalanta,Al-Qadsiah,2025-07-21,61750000,45000000,1.372222222222222,Attack,26
+Anthony Elanga,Nott'm Forest,Newcastle,2025-07-11,61400000,42000000,1.461904761904762,Attack,23
+Dani Olmo,Leipzig,Barcelona,2024-08-09,61000000,60000000,1.016666666666667,Midfield,26
+Sandro Tonali,AC Milan,Newcastle,2023-07-03,60800000,50000000,1.216,Midfield,23
+Miralem Pjanić,Juventus,Barcelona,2020-09-01,60000000,45000000,1.333333333333333,Midfield,30
+Moussa Diaby,Aston Villa,Al-Ittihad,2024-07-24,60000000,55000000,1.090909090909091,Attack,25
+Jan Paul van Hecke,Brighton,Tottenham,2026-06-19,60000000,45000000,1.333333333333333,Defender,26
+Naby Keïta,RB Leipzig,Liverpool,2018-07-01,60000000,65000000,0.9230769230769231,Midfield,23
+Erling Haaland,Dortmund,Man City,2022-07-01,60000000,150000000,0.4,Attack,22
+Malcom,Zenit S-Pb,Al-Hilal,2023-07-26,60000000,30000000,2,Attack,26
+Anthony Martial,Monaco,Man Utd,2015-09-01,60000000,8000000,7.5,Attack,20
+Nico González,Porto,Man City,2025-02-03,60000000,18000000,3.333333333333333,Midfield,23
+Manuel Ugarte,Sporting,PSG,2023-07-07,60000000,50000000,1.2,Midfield,22
+Christopher Nkunku,Leipzig,Chelsea,2023-07-01,60000000,80000000,0.75,Attack,26
+Otávio,Porto,Al-Nassr,2023-08-22,60000000,35000000,1.714285714285714,Midfield,28
+Jérémy Doku,Stade Rennais,Man City,2023-08-24,60000000,28000000,2.142857142857143,Attack,21
+Pedro Neto,Wolves,Chelsea,2024-08-11,60000000,55000000,1.090909090909091,Attack,24
+Amadou Onana,Everton,Aston Villa,2024-07-22,59350000,50000000,1.187,Midfield,23
+Fred,Shakhtar D.,Man Utd,2018-07-01,59000000,32000000,1.84375,Midfield,25
+Ezri Konsa,Aston Villa,Arsenal,2026-07-01,59000000,40000000,1.475,Defender,29
+Ben White,Brighton,Arsenal,2021-07-30,58500000,28000000,2.089285714285714,Defender,24
+Teun Koopmeiners,Atalanta,Juventus,2024-08-28,58400000,50000000,1.168,Midfield,26
+Richarlison,Everton,Tottenham,2022-07-01,58000000,48000000,1.208333333333333,Attack,25
+Raphinha,Leeds,Barcelona,2022-07-13,58000000,45000000,1.288888888888889,Attack,26
+Yoane Wissa,Brentford,Newcastle,2025-09-01,57700000,32000000,1.803125,Attack,29
+Benjamin Mendy,Monaco,Man City,2017-07-24,57500000,13000000,4.423076923076923,Defender,23
+Lisandro Martínez,Ajax,Man Utd,2022-07-27,57370000,32000000,1.7928125,Defender,24
+Jorginho,Napoli,Chelsea,2018-07-14,57000000,50000000,1.14,Midfield,27
+Raheem Sterling,Man City,Chelsea,2022-07-13,56200000,70000000,0.8028571428571428,Attack,28
+Noni Madueke,Chelsea,Arsenal,2025-07-18,56000000,40000000,1.4,Attack,23
+Jamie Gittens,Dortmund,Chelsea,2025-07-05,56000000,50000000,1.12,Attack,21
+Hulk,Zenit S-Pb,SH SIPG,2016-07-01,56000000,32000000,1.75,Attack,30
+John Stones,Everton,Man City,2016-08-09,55600000,28000000,1.985714285714286,Defender,22
+Moussa Diaby,Leverkusen,Aston Villa,2023-07-22,55000000,50000000,1.1,Attack,24
+Brennan Johnson,Nott'm Forest,Tottenham,2023-09-01,55000000,38000000,1.447368421052632,Attack,22
+Ibrahim Mbaye,PSG,Aston Villa,2026-09-01,55000000,30000000,1.833333333333333,Attack,18
+Aaron Wan-Bissaka,Crystal Palace,Man Utd,2019-07-01,55000000,35000000,1.571428571428571,Defender,22
+Rúben Neves,Wolves,Al-Hilal,2023-07-01,55000000,40000000,1.375,Midfield,26
+Ferran Torres,Man City,Barcelona,2022-01-01,55000000,45000000,1.222222222222222,Attack,22
+Tijjani Reijnders,AC Milan,Man City,2025-06-10,54900000,50000000,1.098,Midfield,27
+Antoine Griezmann,Real Sociedad,Atlético,2014-07-28,54000000,30000000,1.8,Attack,23
+Cristian Romero,Atalanta,Tottenham,2022-08-30,53800000,48000000,1.120833333333333,Defender,24
+Alexandre Lacazette,Lyon,Arsenal,2017-07-05,53000000,40000000,1.325,Attack,26
+Michael Olise,Crystal Palace,Bayern Munich,2024-07-07,53000000,55000000,0.9636363636363636,Attack,23
+Darwin Núñez,Liverpool,Al-Hilal,2025-08-09,53000000,45000000,1.177777777777778,Attack,26
+Timo Werner,Leipzig,Chelsea,2020-07-01,53000000,64000000,0.828125,Attack,24
+Kyle Walker,Tottenham,Man City,2017-07-14,52700000,30000000,1.756666666666667,Defender,27
+Aleksandar Mitrović,Fulham,Al-Hilal,2023-08-19,52600000,28000000,1.878571428571429,Attack,29
+Gabriel Jesus,Man City,Arsenal,2022-07-04,52200000,50000000,1.044,Attack,25
+João Félix,Atlético,Chelsea,2024-08-21,52000000,30000000,1.733333333333333,Attack,25
+Piero Hincapié,Leverkusen,Arsenal,2026-07-01,52000000,50000000,1.04,Defender,24
+Leroy Sané,FC Schalke 04,Man City,2016-08-02,52000000,30000000,1.733333333333333,Attack,20
+Douglas Luiz,Aston Villa,Juventus,2024-07-01,51500000,70000000,0.7357142857142858,Midfield,26
+Bremer,Torino,Juventus,2022-07-20,51300000,35000000,1.465714285714286,Defender,25
+João Palhinha,Fulham,Bayern Munich,2024-07-11,51000000,55000000,0.9272727272727272,Midfield,29
+Geovany Quenda,Sporting,Chelsea,2026-07-01,50700000,42000000,1.207142857142857,Attack,19
+Ben Chilwell,Leicester,Chelsea,2020-08-26,50200000,40000000,1.255,Defender,24
+André Onana,Inter,Man Utd,2023-07-20,50200000,35000000,1.434285714285714,Goalkeeper,27
+Bernardo Silva,Monaco,Man City,2017-07-01,50000000,40000000,1.25,Midfield,23
+Désiré Doué,Stade Rennais,PSG,2024-08-17,50000000,30000000,1.666666666666667,Attack,19
+Min-jae Kim,Napoli,Bayern Munich,2023-07-18,50000000,60000000,0.8333333333333334,Defender,27
+Galeno,Porto,Al-Ahli,2025-01-31,50000000,27000000,1.851851851851852,Attack,28
+Xavi Simons,PSG,Leipzig,2025-01-30,50000000,80000000,0.625,Midfield,22
+Álvaro Carreras,Benfica,Real Madrid,2025-07-14,50000000,35000000,1.428571428571429,Defender,22
+Mauro Icardi,Inter,PSG,2020-07-01,50000000,60000000,0.8333333333333334,Attack,27
+Alex Teixeira,Shakhtar D.,JS Suning,2016-02-05,50000000,30000000,1.666666666666667,Midfield,26
+Sébastien Haller,Frankfurt,West Ham,2019-07-17,50000000,40000000,1.25,Attack,25
+Jules Koundé,Sevilla FC,Barcelona,2022-07-28,50000000,60000000,0.8333333333333334,Defender,24
+Matheus Cunha,Atlético,Wolves,2023-07-01,50000000,25000000,2,Attack,24
+Ousmane Dembélé,Barcelona,PSG,2023-08-12,50000000,60000000,0.8333333333333334,Attack,26
+Manuel Ugarte,PSG,Man Utd,2024-08-30,50000000,45000000,1.111111111111111,Midfield,23
+Thomas Partey,Atlético,Arsenal,2020-10-05,50000000,40000000,1.25,Midfield,27
+Éder Militão,Porto,Real Madrid,2019-07-01,50000000,50000000,1,Defender,21
+Hirving Lozano,PSV,Napoli,2019-08-23,50000000,40000000,1.25,Attack,24
+Jørgen Strand Larsen,Wolves,Crystal Palace,2026-02-02,49700000,40000000,1.2425,Attack,26
+Rafael Leão,Lille,AC Milan,2019-08-01,49500000,15000000,3.3,Attack,20
+Gylfi Sigurdsson,Swansea,Everton,2017-08-16,49400000,25000000,1.976,Midfield,28
+Kalvin Phillips,Leeds,Man City,2022-07-04,49000000,50000000,0.98,Midfield,27
+Luis Díaz,Porto,Liverpool,2022-01-30,49000000,40000000,1.225,Attack,25
+Leroy Sané,Man City,Bayern Munich,2020-07-15,49000000,80000000,0.6125,Attack,24
+Ferland Mendy,Lyon,Real Madrid,2019-07-01,48000000,30000000,1.6,Defender,24
+Endrick,Palmeiras,Real Madrid,2024-07-21,47500000,60000000,0.7916666666666666,Attack,18
+Maximilian Kilman,Wolves,West Ham,2024-07-06,47500000,32000000,1.484375,Defender,27
+Matheus Nunes,Sporting,Wolves,2022-08-18,47400000,35000000,1.354285714285714,Defender,24
+Cole Palmer,Man City,Chelsea,2023-09-01,47000000,18000000,2.611111111111111,Midfield,21
+Milos Kerkez,Bournemouth,Liverpool,2025-07-01,46900000,45000000,1.042222222222222,Defender,22
+Fabinho,Liverpool,Al-Ittihad,2023-07-31,46700000,42000000,1.111904761904762,Midfield,30
+Georginio Rutter,Leeds,Brighton,2024-08-19,46700000,18000000,2.594444444444445,Attack,22
+James Maddison,Leicester,Tottenham,2023-07-01,46300000,60000000,0.7716666666666666,Midfield,27
+Alejandro Garnacho,Man Utd,Chelsea,2025-08-30,46200000,45000000,1.026666666666667,Attack,21
+Anthony Gordon,Everton,Newcastle,2023-01-29,45600000,40000000,1.14,Attack,22

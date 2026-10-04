@@ -1,0 +1,59 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "kpi2",
+  "position": {
+    "x": 844,
+    "y": 20,
+    "z": 6,
+    "width": 390,
+    "height": 110,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "HistoricalSample"
+                    }
+                  },
+                  "Property": "Sample median fee EUR"
+                }
+              },
+              "queryRef": "HistoricalSample.Sample median fee EUR",
+              "nativeQueryRef": "Sample median fee EUR"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Sample median fee EUR'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

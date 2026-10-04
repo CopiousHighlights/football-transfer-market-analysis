@@ -1,0 +1,59 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "leaguefilter",
+  "position": {
+    "x": 970,
+    "y": 20,
+    "z": 9,
+    "width": 286,
+    "height": 110,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DestinationLeague"
+                    }
+                  },
+                  "Property": "League"
+                }
+              },
+              "queryRef": "DestinationLeague.League",
+              "nativeQueryRef": "League"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Destination league'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

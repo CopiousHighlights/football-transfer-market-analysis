@@ -1,0 +1,77 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "positions",
+  "position": {
+    "x": 24,
+    "y": 150,
+    "z": 6,
+    "width": 602,
+    "height": 310,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "clusteredBarChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "HistoricalSample"
+                    }
+                  },
+                  "Property": "position"
+                }
+              },
+              "queryRef": "HistoricalSample.position",
+              "nativeQueryRef": "position"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "HistoricalSample"
+                    }
+                  },
+                  "Property": "Sample fees EUR"
+                }
+              },
+              "queryRef": "HistoricalSample.Sample fees EUR",
+              "nativeQueryRef": "Sample fees EUR"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Sample fees by position · EUR'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "details",
+  "position": {
+    "x": 24,
+    "y": 490,
+    "z": 6,
+    "width": 1232,
+    "height": 340,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "HistoricalSample"
+                    }
+                  },
+                  "Property": "player_name"
+                }
+              },
+              "queryRef": "HistoricalSample.player_name",
+              "nativeQueryRef": "player_name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "HistoricalSample"
+                    }
+                  },
+                  "Property": "from_club_name"
+                }
+              },
+              "queryRef": "HistoricalSample.from_club_name",
+              "nativeQueryRef": "from_club_name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "HistoricalSample"
+                    }
+                  },
+                  "Property": "to_club_name"
+                }
+              },
+              "queryRef": "HistoricalSample.to_club_name",
+              "nativeQueryRef": "to_club_name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "HistoricalSample"
+                    }
+                  },
+                  "Property": "transfer_date"
+                }
+              },
+              "queryRef": "HistoricalSample.transfer_date",
+              "nativeQueryRef": "transfer_date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "HistoricalSample"
+                    }
+                  },
+                  "Property": "transfer_fee"
+                }
+              },
+              "queryRef": "HistoricalSample.transfer_fee",
+              "nativeQueryRef": "transfer_fee"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "HistoricalSample"
+                    }
+                  },
+                  "Property": "mv_at_transfer"
+                }
+              },
+              "queryRef": "HistoricalSample.mv_at_transfer",
+              "nativeQueryRef": "mv_at_transfer"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "HistoricalSample"
+                    }
+                  },
+                  "Property": "fee_to_mv"
+                }
+              },
+              "queryRef": "HistoricalSample.fee_to_mv",
+              "nativeQueryRef": "fee_to_mv"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Selected sample · not the full historical market'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

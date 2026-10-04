@@ -1,0 +1,77 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "gap",
+  "position": {
+    "x": 24,
+    "y": 150,
+    "z": 6,
+    "width": 602,
+    "height": 290,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "clusteredBarChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ValuationSample"
+                    }
+                  },
+                  "Property": "position"
+                }
+              },
+              "queryRef": "ValuationSample.position",
+              "nativeQueryRef": "position"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ValuationSample"
+                    }
+                  },
+                  "Property": "Model gap EUR"
+                }
+              },
+              "queryRef": "ValuationSample.Model gap EUR",
+              "nativeQueryRef": "Model gap EUR"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Model gap by position · EUR · unvalidated model'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

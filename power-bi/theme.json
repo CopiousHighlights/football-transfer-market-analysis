@@ -1,0 +1,44 @@
+{
+  "name": "Football Transfer Worth — Navy & Emerald",
+  "dataColors": [
+    "#087F5B",
+    "#102A43",
+    "#0E8F9A",
+    "#507B99",
+    "#A97C24",
+    "#8B6FA8"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#243B53",
+  "tableAccent": "#087F5B",
+  "firstLevelElements": "#243B53",
+  "secondLevelElements": "#627D98",
+  "thirdLevelElements": "#F2F6F9",
+  "fourthLevelElements": "#D9E2EC",
+  "secondaryBackground": "#F2F6F9",
+  "good": "#087F5B",
+  "neutral": "#A97C24",
+  "bad": "#A8445C",
+  "textClasses": {
+    "callout": {
+      "fontSize": 32,
+      "fontFace": "Segoe UI",
+      "color": "#102A43"
+    },
+    "title": {
+      "fontSize": 14,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#102A43"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#102A43"
+    },
+    "label": {
+      "fontSize": 11,
+      "fontFace": "Segoe UI",
+      "color": "#243B53"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+record_id,player_name,quoted_fee_gbp,quote_basis,component_count
+S26-0195,Hayden Hackney,16500000,Source quote; base/add-on treatment unspecified,2
+S26-0243,Nathan Aké,7000000,Source quote; base/add-on treatment unspecified,2
+S26-0298,Pierce Charles,3000000,Source quote; base/add-on treatment unspecified,2
+S26-0306,Albion Rrahmani,6400000,Source quote; base/add-on treatment unspecified,2
+S26-0435,Reigan Heskey,2000000,Source quote; base/add-on treatment unspecified,2
+S26-0439,Johan Manzambi,51000000,Includes add-ons or potential total; see components,2
+S26-0499,Will Lankshear,20000000,Includes add-ons or potential total; see components,2
+S26-0667,Pietro Comuzzo,,No numeric source quote,2
+S26-0683,Artem Dovbyk,,No numeric source quote,2
+S26-0703,António Silva,21400000,Source quote; base/add-on treatment unspecified,2
+S26-0724,Randal Kolo Muani,32500000,Source quote; base/add-on treatment unspecified,2
+S26-0819,Tynan Thompson,4000000,Source quote; base/add-on treatment unspecified,2
+S26-0821,Pierce Charles,,No numeric source quote,2
+S26-1012,Rodri,51300000,Source quote; base/add-on treatment unspecified,2
+S26-1058,Ezri Konsa,51000000,Source quote; base/add-on treatment unspecified,2
+S26-1066,Benoît Badiashile,,No numeric source quote,2
+S26-1110,Sávio,75000000,Base fee; add-ons separately reported,2
+S26-1116,Michele Di Gregorio,,No numeric source quote,2
+S26-1117,Carlos Baleba,70000000,Includes add-ons or potential total; see components,2
+S26-1162,Fabio Miretti,,No numeric source quote,2
+S26-1332,Moise Kean,,No numeric source quote,2
+S26-0034,Jakub Kiwior,14500000,Source quote; base/add-on treatment unspecified,1
+S26-0160,Alejandro Grimaldo,19000000,Source quote; base/add-on treatment unspecified,1
+S26-0171,Jeff Ekhator,14100000,Source quote; base/add-on treatment unspecified,1
+S26-0202,Kaiki,,No numeric source quote,1
+S26-0208,Julien Duranville,4300000,Source quote; base/add-on treatment unspecified,1
+S26-0240,Mohamed Ouédraogo,1900000,Source quote; base/add-on treatment unspecified,1
+S26-0256,Tyrique George,18000000,Source quote; base/add-on treatment unspecified,1
+S26-0463,Christ Inao Oulaï,22100000,Source quote; base/add-on treatment unspecified,1
+S26-0556,Aladji Bamba,30000000,Source quote; base/add-on treatment unspecified,1
+S26-0616,Loïs Openda,,No numeric source quote,1
+S26-0689,Kieron Bowie,,No numeric source quote,1
+S26-0704,Sam Szmodics,,No numeric source quote,1
+S26-0737,Vasilije Adzic,428000,Loan fee,1
+S26-0746,Charlie Cresswell,,No numeric source quote,1
+S26-0807,Junior Dina Ebimbe,600000,Source quote; base/add-on treatment unspecified,1
+S26-0933,Enes Unal,,Free base transfer; other costs not represented,1
+S26-0934,Roberto Piccoli,,No numeric source quote,1
+S26-0936,Thomas Kristensen,,No numeric source quote,1
+S26-1024,Promise David,,No numeric source quote,1
+S26-1035,Rodrigo Mora,21400000,Source quote; base/add-on treatment unspecified,1
+S26-1038,Thomas Jørgensen,6430000,Source quote; base/add-on treatment unspecified,1
+S26-1051,Aaron Wan-Bissaka,,No numeric source quote,1
+S26-1145,Bryan Zaragoza,,No numeric source quote,1
+S26-1146,Omar Marmoush,,No numeric source quote,1
+S26-1153,Noah Atubolu,,No numeric source quote,1
+S26-1323,Beto,15440000,Source quote; base/add-on treatment unspecified,1
+S26-1364,Iliman Ndiaye,60000000,Includes add-ons or potential total; see components,1

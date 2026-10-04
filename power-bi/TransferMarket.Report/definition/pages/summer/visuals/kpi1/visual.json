@@ -1,0 +1,59 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "kpi1",
+  "position": {
+    "x": 334,
+    "y": 20,
+    "z": 9,
+    "width": 294,
+    "height": 110,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Transfers"
+                    }
+                  },
+                  "Property": "Reported permanent fees GBP"
+                }
+              },
+              "queryRef": "Transfers.Reported permanent fees GBP",
+              "nativeQueryRef": "Reported permanent fees GBP"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Reported permanent fees · GBP'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

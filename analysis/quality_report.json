@@ -1,0 +1,24 @@
+{
+  "workbook_sha256": "d94e2a9058218329613700936e403f8dfc44e97b0c81be622b425178c42a7998",
+  "source_rows": {
+    "summer_new": 1475,
+    "summer_matches": 18,
+    "summer_review": 28,
+    "fee_components": 69,
+    "source_checks": 5,
+    "paid_sample": 200,
+    "valuation_sample": 150,
+    "summer_transfers": 1493
+  },
+  "checks": {
+    "unique_summer_ids": true,
+    "status_partition": true,
+    "no_negative_reported_fees": true,
+    "fee_components_reference_known_ids": true,
+    "coverage_total": true,
+    "summer_fee_sql_python_reconciliation": true
+  },
+  "historical_sample_zero_or_missing_fees": 0,
+  "summer_unknown_fee_count": 993,
+  "limitation": "Workbook summaries referencing 175,182 rows cannot be rebuilt without the external full dataset."
+}
