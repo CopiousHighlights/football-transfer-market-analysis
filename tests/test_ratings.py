@@ -1,4 +1,4 @@
-import json,unittest
+import json,re,unittest
 from pathlib import Path
 from zipfile import ZipFile
 import openpyxl
@@ -24,4 +24,11 @@ class RatingTests(unittest.TestCase):
         self.assertIsNone(w['Rating_Calculator']['J6'].value)
         self.assertEqual(w['Rating_Calculator']['L6'].value,'Needs component scores')
         self.assertEqual(w['Transfer_Ratings']['K9'].value,9.7)
+    def test_excel_compatibility_namespace_declarations(self):
+        with ZipFile(R/'excel/Football_Transfer_Worth_Final.xlsx') as z:
+            for part in ['xl/workbook.xml','xl/styles.xml']:
+                text=z.read(part).decode('utf-8')
+                prefixes=set(re.findall(r'xmlns:([\w]+)=',text))
+                for tokens in re.findall(r'(?:Ignorable|Requires)="([^"]+)"',text):
+                    self.assertTrue(set(tokens.split()).issubset(prefixes),part)
 if __name__=='__main__':unittest.main()
