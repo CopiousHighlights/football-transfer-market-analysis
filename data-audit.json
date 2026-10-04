@@ -1,0 +1,28 @@
+{
+  "commit": "83154c8d142004e4530e201f62d08d5c5118c1bf",
+  "sheetCounts": {
+    "How_to_read": 14,
+    "Data_Dictionary": 8,
+    "Data_Quality": 3,
+    "KPI_Summary": 13,
+    "Paid_Sample": 200,
+    "By_Position": 5,
+    "By_Age": 4,
+    "FTV_Worth": 150,
+    "Summer26_Overview": 35,
+    "Summer26_New": 1475,
+    "Summer26_Matches": 18,
+    "Summer26_Review": 28,
+    "Fee_Components": 69,
+    "Source_Checks": 5,
+    "Transfer_Ratings": 112,
+    "Position_Rubric": 73,
+    "Rating_Calculator": 112
+  },
+  "summerRecords": 1493,
+  "positiveFeeRecords": 499,
+  "reportedPermanentFeesGBP": 6693534500,
+  "workbookCSVReconciliation": "passed",
+  "SQLFeeReconciliation": "passed",
+  "powerBIVisualDefinitions": 21
+}

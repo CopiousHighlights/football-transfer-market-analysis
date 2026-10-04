@@ -3,6 +3,7 @@ import argparse,csv,hashlib,json,sqlite3
 from pathlib import Path
 from datetime import date,datetime
 import openpyxl
+from ratings import export_ratings
 ROOT=Path(__file__).resolve().parents[1]
 SOURCES={'summer_new':'Summer26_New','summer_matches':'Summer26_Matches',
          'summer_review':'Summer26_Review','fee_components':'Fee_Components',
@@ -58,6 +59,8 @@ def main(workbook):
                 'limitation':'Workbook summaries referencing 175,182 rows cannot be rebuilt without the external full dataset.'}
         (ROOT/'analysis/quality_report.json').write_text(json.dumps(report,indent=2),encoding='utf8')
         if not all(checks.values()):raise ValueError('Data quality checks failed; inspect analysis/quality_report.json')
+        report['ratings']=export_ratings(wb)
+        (ROOT/'analysis/quality_report.json').write_text(json.dumps(report,indent=2),encoding='utf8')
         print(json.dumps(report,indent=2))
 TOP5={'Premier League','La Liga','Serie A','Bundesliga','Ligue 1'}
 if __name__=='__main__':

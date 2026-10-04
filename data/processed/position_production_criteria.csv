@@ -1,0 +1,37 @@
+position,criterion,weight,evidence_needed,normalization,rule_status
+CDM,Defending,0.4,"Interceptions, recoveries, duel success",Per 90; adjust for possession,Agreed production split
+CDM,Passing / progression,0.3,"Progressive passes, carries, line-breaking passes",Per 90; compare deep-midfield roles,Agreed production split
+CDM,Possession security,0.2,"Turnovers, dispossessions, pressure retention",Reverse adverse measures; comparable difficulty,Agreed production split
+CDM,Attacking contribution,0.1,"Non-penalty xG, xA, chances created",Per 90; do not reward goals alone,Agreed production split
+CM,Progression,0.35,Progressive passes and carries,Per 90; role and possession context,Proposed
+CM,Creation,0.25,"xA, chances created",Per 90,Proposed
+CM,Defending,0.25,"Recoveries, interceptions, duel success",Per 90; possession adjustment,Proposed
+CM,Possession security,0.15,Turnovers and pressure retention,Adverse measures reversed,Proposed
+CAM,Creation,0.45,"xA, chances created, through balls",Per 90; chance quality,Proposed
+CAM,Scoring,0.25,Non-penalty xG and goals,Per 90; separate penalties,Proposed
+CAM,Progression,0.2,Carries and attacking entries,Per 90,Proposed
+CAM,Security / pressing,0.1,Turnovers and possession wins,Role and team context,Proposed
+CB,Defending,0.45,"Interceptions, duels, defensive errors",Possession and opponent adjustment,Proposed
+CB,Aerial play,0.25,Aerial success and contested volume,Compare similar defensive roles,Proposed
+CB,Ball progression,0.2,Progressive passing and carries,Per 90; pass difficulty,Proposed
+CB,Discipline / security,0.1,"Errors, fouls, cards, turnovers",Adverse measures reversed,Proposed
+FB,Defending,0.3,"Defensive duels, interceptions",Possession adjusted,Proposed
+FB,Progression,0.25,Progressive passes and carries,Per 90,Proposed
+FB,Creation,0.25,"xA, chances created, crosses",Per 90; crossing quality,Proposed
+FB,Recovery / security,0.2,Recoveries and turnovers,Role context,Proposed
+WB,Creation,0.35,"xA, chance creation, crosses",Per 90,Proposed
+WB,Progression,0.3,Carries and attacking entries,Per 90,Proposed
+WB,Defending,0.25,"Duels, interceptions, recoveries",Possession adjusted,Proposed
+WB,Security,0.1,Turnovers and pressure retention,Adverse measures reversed,Proposed
+WINGER,Scoring,0.35,Non-penalty xG and goals,Per 90,Proposed
+WINGER,Creation,0.3,xA and chances created,Per 90,Proposed
+WINGER,Progression / take-ons,0.25,Carries and successful take-ons,Per 90; success and volume,Proposed
+WINGER,Pressing / security,0.1,Possession wins and turnovers,Team and role context,Proposed
+ST,Scoring,0.5,Non-penalty xG and goals,Per 90; finishing evidence over time,Proposed
+ST,Link-up / creation,0.2,"xA, chance creation, retention",Per 90; target / mobile role context,Proposed
+ST,Box / aerial threat,0.2,Box touches and aerial success,Per 90; role context,Proposed
+ST,Pressing,0.1,High possession wins,Team pressing context,Proposed
+GK,Shot stopping,0.45,Post-shot xG minus goals allowed,Per 90; shot difficulty,Proposed
+GK,Distribution,0.25,Progressive passing and pressured accuracy,Pass difficulty and role,Proposed
+GK,Aerial command,0.2,Cross claiming and aerial interventions,Per opportunity,Proposed
+GK,Sweeping,0.1,Actions outside area and errors,Per opportunity; team line height,Proposed

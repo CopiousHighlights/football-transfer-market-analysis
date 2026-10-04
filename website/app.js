@@ -1,0 +1,3 @@
+import {createUI} from './views.js';
+const main=document.querySelector('main');
+Promise.all([fetch('data.json'),fetch('ratings.json')]).then(async responses=>{if(responses.some(r=>!r.ok))throw new Error('Project data unavailable');const [data,ratings]=await Promise.all(responses.map(r=>r.json()));return {...data,ratings};}).then(data=>{createUI(data);}).catch(error=>{main.innerHTML='<div class="empty"><strong>We couldnâ€™t load the project data.</strong><p>No totals are shown because the snapshot is unavailable.</p><button class="btn" onclick="location.reload()">Try again</button></div>';console.error(error);});

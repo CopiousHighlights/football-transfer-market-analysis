@@ -8,11 +8,25 @@ An Excel-led football analytics project that turns a documented workbook snapsho
 
 ## Start here
 
-- **[Excel workbook](excel/Football_Transfer_Worth_Final.xlsx)** — original final workbook, preserved unchanged.
+- **[Excel workbook](excel/Football_Transfer_Worth_Final.xlsx)** — 17 sheets: the 14 original sheets preserved, plus transfer ratings, position rubric and editable rating calculator. [Untouched original](excel/original/Football_Transfer_Worth_Final_Original.xlsx).
 - **[Power BI project](power-bi/TransferMarket.pbip)** — download/clone the entire repository, open in Power BI Desktop, and refresh. Three pages and 12 DAX measures; Desktop validation remains pending.
 - **[SQL analysis](sql/analysis/)** — six queries covering league arrivals, club rankings, large reported fees, announcement timing, valuation gaps, and component joins.
 - **[Python pipeline](src/pipeline.py)** — extracts the workbook, preserves nulls, builds SQLite and CSVs, runs SQL, and reconciles results.
 - **[Methodology](docs/METHODOLOGY.md)** — metric definitions, source links, currency rules, and limitations.
+
+## Transfer rating system
+
+The workbook includes **112 editorial deal entries**, **90 scored** and **22 awaiting fee/loan terms**, in an inferred CDM/deep-midfield cohort. Seven owner references are preserved. Other scores are assistant drafts, not verified performance measurements. Broad source positions prevent certified exhaustive CDM coverage.
+
+- [Live CDM ratings](https://football-transfer-analytics-trevor.trevorcoit781.chatgpt.site/#ratings) and [website source](website/).
+- [Ratings methodology](docs/RATING_METHODOLOGY.md), [CSV](data/processed/transfer_ratings.csv), and [SQL review](sql/rating_review.sql).
+- **Transfer_Ratings:** editable scores, exact deal identity, original fee/currency and reasoning.
+- **Position_Rubric:** agreed CDM rules and proposed CM, CAM, CB, full-back, wing-back, winger, striker and goalkeeper criteria.
+- **Rating_Calculator:** five editable component scores. A weighted score appears only when all inputs are valid. Existing editorial ratings remain separate.
+
+Agreed overall weights: production 40%, fee versus worth 30%, potential 15%, age/runway 10%, competition 5%. CDM production split: defending 40%, progression 30%, possession security 20%, attacking contribution 10%. Other position production splits are proposed for review. No component inputs have been invented to fit the existing editorial scores.
+
+Run `python src/pipeline.py` to export workbook ratings to CSV, JSON and a separate SQLite table. Run `python src/build_website.py` to refresh website data and downloadable bundles, then serve `website/` locally. Generated download bundles are ignored by Git; source assets, workbook and processed data are committed directly. Workbook edits do not automatically publish the Site. Power BI retains its original report; ratings are available as a CSV for a later report page.
 
 ## What this snapshot shows
 
