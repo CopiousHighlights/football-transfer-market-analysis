@@ -1,8 +1,8 @@
-# CDM transfer-value ratings
+# Positional transfer-value ratings
 
 Editorial scouting estimates calibrated to the owner’s references. Weights describe the agreed future rubric; these scores are not weighted statistical model outputs. No subscore or estimated market worth is fabricated. Original source fees, dates and age fields are retained, including known uncertainties.
 
-32 historical and 79 summer records in the editorial CDM/deep-midfield cohort. Broad source positions mean exhaustive CDM coverage is not certified. Includes mixed-role central midfielders; see role labels.
+The original cohort contains 32 historical and 79 summer CDM/deep-midfield records, plus the separate Gross reference. The striker extension adds 55 historical deals, including explicitly labelled mixed-role forwards, and a review queue of all 282 summer Forward records. The winger extension adds 45 historical deals (40 scored, five awaiting evidence) and all 217 summer Winger records as an evidence queue. Summer records in these queues remain unscored because comparable buyer-specific production and cost evidence are incomplete. Broad source labels do not certify exhaustive positional coverage.
 
 Scale: 0.1–10.0, one decimal. Owner scores are retained exactly for the specific deal discussed, never copied to all moves by that player. Historical Rodri→City and summer Casemiro→Inter Miami have separate assistant drafts. Missing fees and loan terms stay unscored. Explicit free transfers may receive a draft but wages and signing costs are unknown. Source fee currencies are kept separate, without unsupported currency conversions. Historical ages come from the source and may contain errors; summer ages are unavailable. Historical outcomes and current scouting judgments are mixed in these discussion drafts, so these are neither pre-transfer predictions nor consistent outcome-model scores. Production, potential and role judgments are provisional.
 

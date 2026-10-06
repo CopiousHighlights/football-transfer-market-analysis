@@ -1,0 +1,11 @@
+{
+  "currency": "EUR",
+  "basis": "Owner editorial estimates, separate from original model values",
+  "adjustments": {
+    "Lamine Yamal": 220000000,
+    "Erling Haaland": 195000000,
+    "Antony": 95000000
+  },
+  "original_valuation_cells_preserved": 1812,
+  "unrelated_package_parts_unchanged": 39
+}

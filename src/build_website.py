@@ -12,7 +12,7 @@ PURPOSES={
  'Summer26_Overview':'Source coverage and summer methodology', 'Summer26_New':'Transfers newly added to the workbook · GBP quotes',
  'Summer26_Matches':'Summer source records already matched to the workbook', 'Summer26_Review':'Review/excluded records; excluded from summer dashboard',
  'Fee_Components':'Reported fee detail; never automatically added to quoted fees', 'Source_Checks':'Source verification notes and conflicting reports'}
-NUMERIC={'quoted_fee_gbp','existing_excel_row','existing_fee_eur','transfer_fee','mv_at_transfer','fee_to_mv','age_at_transfer','age','tm_value','fair_value','tm_to_fair','minutes','goals','assists','amount','base_fee','addons_max','has_reported_fee','is_permanent_fee'}
+NUMERIC={'quoted_fee_gbp','existing_excel_row','existing_fee_eur','transfer_fee','mv_at_transfer','fee_to_mv','age_at_transfer','age','tm_value','fair_value','tm_to_fair','minutes','goals','assists','amount','base_fee','addons_max','has_reported_fee','is_permanent_fee','editorial_worth_eur','effective_worth_eur','worth_rank'}
 def scalar(v):return v.isoformat()[:10] if isinstance(v,(date,datetime)) else v
 def csv_records(path):
  with path.open(encoding='utf8',newline='') as f:rows=list(csv.DictReader(f))

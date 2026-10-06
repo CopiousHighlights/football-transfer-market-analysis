@@ -1,5 +1,5 @@
 {
-  "commit": "1f7aafedaca71ed200cd8aaf006f7f89c437cfe1",
+  "commit": "d6cf6c62c8f4f671598252354a8421c661102bd6",
   "sheetCounts": {
     "How_to_read": 14,
     "Data_Dictionary": 8,
@@ -15,9 +15,9 @@
     "Summer26_Review": 28,
     "Fee_Components": 69,
     "Source_Checks": 5,
-    "Transfer_Ratings": 112,
+    "Transfer_Ratings": 711,
     "Position_Rubric": 73,
-    "Rating_Calculator": 112
+    "Rating_Calculator": 711
   },
   "summerRecords": 1493,
   "positiveFeeRecords": 499,

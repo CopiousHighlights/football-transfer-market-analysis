@@ -1,10 +1,10 @@
 position,rule_status,production,fee_vs_worth,potential,age,competition
-CDM,Agreed,0.4,0.3,0.15,0.1,0.05
+CDM,Agreed overall weights,0.4,0.3,0.15,0.1,0.05
 CM,Proposed,0.4,0.3,0.15,0.1,0.05
 CAM,Proposed,0.4,0.3,0.15,0.1,0.05
 CB,Proposed,0.4,0.3,0.15,0.1,0.05
 FB,Proposed,0.4,0.3,0.15,0.1,0.05
 WB,Proposed,0.4,0.3,0.15,0.1,0.05
-WINGER,Proposed,0.4,0.3,0.15,0.1,0.05
-ST,Proposed,0.4,0.3,0.15,0.1,0.05
+WINGER,Agreed overall weights,0.4,0.3,0.15,0.1,0.05
+ST,Agreed overall weights,0.4,0.3,0.15,0.1,0.05
 GK,Proposed,0.4,0.3,0.15,0.1,0.05
