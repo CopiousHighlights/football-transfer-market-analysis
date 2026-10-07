@@ -1,5 +1,5 @@
 {
-  "workbook_sha256": "7e142bc0fc26de396a94eec949852f344b1996f86a9ae0f8624e4ac07a4d23e8",
+  "workbook_sha256": "0afdf534bfc1bf23a0e0bc8bb70871f6e3ede3cae7426f98d5639c7920b449ae",
   "source_rows": {
     "summer_new": 1475,
     "summer_matches": 18,
@@ -22,8 +22,8 @@
   "summer_unknown_fee_count": 993,
   "limitation": "Workbook summaries referencing 175,182 rows cannot be rebuilt without the external full dataset.",
   "ratings": {
-    "rating_records": 711,
-    "scored": 185,
+    "rating_records": 1691,
+    "scored": 244,
     "fee_needed": 22
   }
 }

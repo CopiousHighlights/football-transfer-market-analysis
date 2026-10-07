@@ -16,12 +16,12 @@ An Excel-led football analytics project that turns a documented workbook snapsho
 
 ## Transfer rating system
 
-The workbook includes **711 review entries**, **185 scored**, and **526 pending**. The historical striker review covers 55 deals, including mixed-role forwards. The historical winger review covers 45 deals, 40 scored and five awaiting evidence. The summer review queues contain 282 Forward and 217 Winger records awaiting appropriate evidence. Owner references are preserved. Other scores are assistant drafts, not verified performance measurements. Broad source positions prevent certified exhaustive positional coverage. See the [striker review](analysis/STRIKER_RATINGS.md) and [winger review](analysis/WINGER_RATINGS.md).
+The workbook includes **1,691 review entries**, **244 scored**, and **1,447 pending**. The historical striker review covers 55 deals, including mixed-role forwards. The historical winger review covers 45 deals, 40 scored and five awaiting evidence. The summer review queues contain 282 Forward and 217 Winger records awaiting appropriate evidence. Owner references are preserved. Other scores are assistant drafts, not verified performance measurements. Broad source positions prevent certified exhaustive positional coverage. The CM, CAM, CB, LB/RB and goalkeeper extension adds 65 historical reviews, 59 scored and six pending. All 1,493 summer source records are represented; missing role, production and cost evidence keeps the new summer queues unscored. See the [remaining position review](analysis/REMAINING_POSITION_RATINGS.md), [striker review](analysis/STRIKER_RATINGS.md) and [winger review](analysis/WINGER_RATINGS.md).
 
-- [Live CDM ratings](https://football-transfer-analytics-trevor.trevorcoit781.chatgpt.site/#ratings) and [website source](website/).
+- [Live deal ratings](https://football-transfer-analytics-trevor.trevorcoit781.chatgpt.site/#ratings) and [website source](website/).
 - [Ratings methodology](docs/RATING_METHODOLOGY.md), [CSV](data/processed/transfer_ratings.csv), and [SQL review](sql/rating_review.sql).
 - **Transfer_Ratings:** editable scores, exact deal identity, original fee/currency and reasoning.
-- **Position_Rubric:** agreed CDM, striker and winger overall weights; CDM production criteria agreed, other production splits proposed.
+- **Position_Rubric:** the same overall weights for all reviewed positions; CDM production criteria agreed, other production splits proposed.
 - **Rating_Calculator:** five editable component scores. A weighted score appears only when all inputs are valid. Existing editorial ratings remain separate.
 
 Agreed overall weights: production 40%, fee versus worth 30%, potential 15%, age/runway 10%, competition 5%. CDM production split: defending 40%, progression 30%, possession security 20%, attacking contribution 10%. Other position production splits are proposed for review. No component inputs have been invented to fit the existing editorial scores.

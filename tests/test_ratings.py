@@ -7,7 +7,7 @@ class RatingTests(unittest.TestCase):
     def test_transfer_identity_and_missing_fees(self):
         rows=json.loads((R/'data/processed/ratings.json').read_text(encoding='utf-8'))['rows']
         self.assertEqual(len(rows),len({r['rating_id'] for r in rows}))
-        self.assertEqual(len(rows),711)
+        self.assertEqual(len(rows),1691)
         strikers=[r for r in rows if r['dataset']=='historical' and r['role'].startswith('Striker')]
         self.assertEqual(len(strikers),55)
         agreed={'Alexander Isak':7.1,'Hugo Ekitiké':8.8,'Erling Haaland':9.8,'Harry Kane':9.5,'Dominic Solanke':6.7}
@@ -16,7 +16,7 @@ class RatingTests(unittest.TestCase):
             self.assertEqual(len(references),1)
             self.assertEqual(references[0]['rating'],score)
         pending=[r for r in rows if r['rating_status']=='Evidence needed']
-        self.assertEqual(len(pending),504)
+        self.assertEqual(len(pending),1425)
         self.assertTrue(all(r['rating'] is None for r in pending))
         wingers=[r for r in rows if r['dataset']=='historical' and r['role']=='Winger']
         self.assertEqual(len(wingers),45)
@@ -62,4 +62,25 @@ class RatingTests(unittest.TestCase):
                 prefixes=set(re.findall(r'xmlns:([\w]+)=',text))
                 for tokens in re.findall(r'(?:Ignorable|Requires)="([^"]+)"',text):
                     self.assertTrue(set(tokens.split()).issubset(prefixes),part)
+    def test_remaining_position_roles_and_complete_summer_identity(self):
+        rows=json.loads((R/'data/processed/ratings.json').read_text(encoding='utf-8'))['rows']
+        summer=[r for r in rows if r['dataset']=='summer']
+        self.assertEqual(len(summer),1493)
+        self.assertEqual(len({r['source_index'] for r in summer}),1493)
+        self.assertEqual(len({r['record_id'] for r in summer}),1493)
+        new=json.loads((R/'data/processed/ratings.json').read_text(encoding='utf-8'))['remaining_position_review']
+        self.assertEqual(new['historical_added'],65)
+        self.assertEqual(new['historical_scored'],59)
+        for role in ['CM','CAM','CB','LB','RB','GK']:
+            self.assertTrue(any(r['position_group']==role and r['rating'] is not None for r in rows))
+        nunes={r['to_club']:r['position_group'] for r in rows if r['dataset']=='historical' and r['player_name']=='Matheus Nunes'}
+        self.assertEqual(nunes,{'Man City':'RB','Wolves':'CM'})
+        w=openpyxl.load_workbook(R/'excel/Football_Transfer_Worth_Final.xlsx',data_only=True)
+        for i,r in enumerate(rows,6):
+            rule=w['Rating_Calculator'].cell(i,3).value
+            expected='FB' if r['position_group'] in ['LB','RB'] else None if r['position_group'].endswith('_UNCLASSIFIED') else r['position_group']
+            self.assertEqual(rule,expected,r['rating_id'])
+            if expected is None:
+                self.assertIsNone(w['Rating_Calculator'].cell(i,13).value)
+                self.assertEqual(w['Rating_Calculator'].cell(i,10).value,'Choose position')
 if __name__=='__main__':unittest.main()

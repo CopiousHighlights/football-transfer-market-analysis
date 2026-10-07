@@ -18,3 +18,12 @@ Review priorities: fee discrepancies (including Rodri 2026), transfer authentici
 Transfer_Ratings is the editable editorial ledger. Position_Rubric contains the agreed CDM weights and proposed production splits for CM, CAM, CB, FB, WB, winger, striker and goalkeeper. Proposed rules are design choices, not validated findings. Rating_Calculator accepts five scores from 0.1 to 10.0 and returns a weighted one-decimal score only when all inputs are numeric, in range and position weights sum to 100%. Existing editorial scores remain separate. Fee basis and evaluation date must be consistent before entering components. Source conflicts remain visible rather than being silently corrected.
 
 Update workflow: edit the ledger / calculator, run the Python pipeline, then rebuild website exports. The original workbook is archived under excel/original. Original charts, formulas and worksheet XML are preserved. Ratings have not yet been added to native Power BI visuals; import the new CSV for a later report page.
+
+
+## Remaining position extension (7 October 2026)
+
+65 additional historical deals are reviewed: 59 assistant drafts and six entries awaiting transfer/fee-basis evidence. Existing owner scores and previous drafts are unchanged. All 1,493 summer source transfers are now represented, with 915 new midfield/defender/goalkeeper entries left unscored pending role-specific evidence. Broad labels are not guessed into CM, CAM, LB, RB or CB. CM entries already covered in the deep-midfield review are reclassified for filtering without changing their score or original role note. Three Neymar records labelled Midfield in the source are outside the requested roles and remain outside this extension.
+
+The site supports separate CM, CAM, LB, RB, CB and goalkeeper filters and a combined full-back filter. Hybrid classifications are review choices rather than source corrections. Nunes at Wolves is CM; his City review uses RB/utility. For unclassified summer midfielders/defenders, the calculator position selector is blank until a specific role is supported.
+
+See analysis/REMAINING_POSITION_RATINGS.md for every new draft and supporting primary context. Same overall factors apply across positions; detailed production splits remain proposed outside CDM. Components stay blank, and no invented production or acquisition-cost inputs are supplied.
